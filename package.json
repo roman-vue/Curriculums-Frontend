@@ -8,8 +8,11 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.7",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "postcss": "^8.4.14",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.15"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
@@ -18,7 +21,8 @@
     "@vue/test-utils": "^2.0.0-0",
     "@vue/vue3-jest": "^27.0.0-alpha.1",
     "babel-jest": "^27.0.6",
-    "jest": "^27.0.5"
+    "jest": "^27.0.5",
+    "tailwindcss": "^3.1.2"
   },
   "browserslist": [
     "> 1%",
